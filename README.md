@@ -13,6 +13,8 @@ pysam (https://pysam.readthedocs.io/en/latest/installation.html)
 
 pandas (https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html)
 
+To develop and test this code, Python 2.7.16 and MultiChain 2.0.3 Daemon (Community Edition, latest protocol 20011) were used on Ubuntu 19.04 (GNU/Linux 5.0.0-37-generic x86_64).
+
 ### buildChain.py
 Use this file to initialize the chain, initialize streams within the chain, and push data from an input BAM file to the chain.
 One would do all of this on the command line through the following line:
