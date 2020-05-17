@@ -377,7 +377,6 @@ def main():
                         a.query_name = qname
                         a.query_sequence = seq
                         a.flag = int(flag)
-                        print(rname)
                         if "X" in str(rname): #(rname=="X"):
                             print(True)
                             rname=23
@@ -389,7 +388,6 @@ def main():
                         elif "Y" in str(rnext):
                             rnext=24
 
-                        print(rname)
                         if "chr" not in str(rname):
                             #a.reference_id = int(rname)-1
                             rr = int(rname) -1 
@@ -397,7 +395,6 @@ def main():
                         else:
                             rr = re.sub('[chr]','',str(rname))
                         
-                        print(rr)
                         a.reference_id = int(rr)-1
                         a.reference_start = int(pos)-1
                         a.mapping_quality = int(mapq)
