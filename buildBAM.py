@@ -17,10 +17,8 @@ import re
 import zlib, sys, time, base64
 import gzip
 import numpy as np
-import PrintSequence
 import subprocess
 from subprocess import Popen, PIPE
-from Bio import SeqIO
 
 def getReadData(chainName, streamName, multichainLoc, count, start, datadir):
 	#get the number of items in a stream
