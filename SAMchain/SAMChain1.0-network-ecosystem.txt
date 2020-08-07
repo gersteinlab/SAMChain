@@ -1,0 +1,31 @@
+
+We envision a SAMChain to be shared amongst four types of nodes:
+
+1) Owner nodes - a single individual who owns the data in question (e.g. patient).
+2) Sequencing nodes - sequencing center(s) who will generate the digital data and push it to the chain.
+3) Clinical nodes - physician(s) who will access, interpret, and analyze the data.
+4) Research nodes - researcher(s) who will access, interpret, and analyze the data.
+
+Below we detail the steps in Multichain to configure and work within this network ecosystem.
+
+1) All participating nodes install Multichain, SAMChain, and dependencies (see README).
+
+2) Owner node runs buildChain.py to create a SAMChain and data streams within the chain, which will store the sequencing data.
+
+3) Sequencing node generates SAM/BAM file containing Owner's data, and requests access to the Owner's chain by running the following command:
+
+    multichaind chainname@xxxxxxxxxxxxx -daemon -autosubscribe=streams
+   
+   ^In the above command, chainname@xxxxxxxxxxxxx is provided by the chain Owner. This command will output an alphanumeric string <yyyyyyy>.
+   
+4) The Chain owner grants the Sequencing node access by running the following command:
+
+    multichain-cli chainname grant <yyyyyyy> connect,send,receive
+
+    Upon granting this access, the Sequencing node will begin syncing the chain. 
+
+5) The Sequencing node can now run insertData.py to insert data from an input SAM/BAM file to the Owner's chain. 
+
+6) The Clinician and/or Research nodes, upon making contact with the Owner through other means, can follow steps (3) and (4) above to gain access to the chain. 
+
+7) The Clinician and/or Research nodes can run queryReads.py, queryDepth.py, and pileup.py to interpret and analyze the Owner's data.
