@@ -1,0 +1,30 @@
+This is a list of the loci used in the test file for SAMchain manuscript.
+The genome used will be HG00114 from 1000 Genomes.
+The genome build was GRCh38.
+The loci position source is:
+
+
+chr1    DAB1    chr1:56994778-58546726  1.5mil bp       https://www.ncbi.nlm.nih.gov/gene/1600
+chr2    LRP1B   chr2:140231423-142132463        1.9milbp        https://www.ncbi.nlm.nih.gov/gene/53353
+chr3    ROBO2   chr3:75906675-77649964  1.7mil bp       https://www.ncbi.nlm.nih.gov/gene/6092
+chr4    4p13 region     chr4:41200001-44600000  3.3mil bp       https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?id=GCF_000001405.39
+chr5    CDH18   chr5:19471296-20575886  1.1mil bp       https://www.ncbi.nlm.nih.gov/gene/1016
+chr6    human leukocyte antigen (HLA) super-locus       chr6:28510120-33480577  4.9mil bp       https://www.ncbi.nlm.nih.gov/grc/human/regions/MHC
+chr7    CNTNAP2 chr7:146116207-148420998        2.3mil bp       https://www.ncbi.nlm.nih.gov/gene/26047
+chr8    CSMD1   chr8:2935353-4995035    2.0mil bp       https://www.ncbi.nlm.nih.gov/gene/64478
+chr9    PTPRD   chr9:8314246-10613002   2.2mil bp       https://www.ncbi.nlm.nih.gov/gene/5789
+chr10   PCDH15  chr10:53802771-55629182 1.8mil bp       https://www.ncbi.nlm.nih.gov/gene/65217
+chr11   DLG2    chr11:83455009-85628535 2.1mil bp       https://www.ncbi.nlm.nih.gov/gene/1740
+chr12   ANKS1B  chr12:98729904-99984773 1.2mil bp       https://www.ncbi.nlm.nih.gov/gene/56899
+chr13   GPC5    chr13:91398621-92867237 1.4mil bp       https://www.ncbi.nlm.nih.gov/gene/2262
+chr14   NRXN3   chr14:77979904-79868291 1.8mil bp       https://www.ncbi.nlm.nih.gov/gene/9369
+chr15   AGBL1   chr15:86079620-87031476 0.95mil bp      https://www.ncbi.nlm.nih.gov/gene/40
+chr16   RBFOX1  chr16:5239752-7713343   2.4mil bp       https://www.ncbi.nlm.nih.gov/gene/54715
+chr17   ASIC2   chr17:33013087-34156806 1.1mil bp       https://www.ncbi.nlm.nih.gov/gene/40
+chr18   DCC netrin 1 receptor   chr18:52340172-53535899 1.1mil bp       https://www.ncbi.nlm.nih.gov/gene/1630
+chr19   19p13.13 region chr19:37790235-38403391 0.61mil bp      https://www.ncbi.nlm.nih.gov/genome/gdv/browser/genome/?id=GCF_000001405.39
+chr20   MACROD2 gene    chr20:13995516-16053197 2.0mil bp       https://www.ncbi.nlm.nih.gov/gene/140733
+chr21   RUNX1 gene      chr21:34787801-36004667 1.2mil bp       https://useast.ensembl.org/Homo_sapiens/Gene/Summary?g=ENSG00000159216;r=21:34787801-36004667
+chr22   DGS/VCFS region chr22:18924718-21111383 2.1mil bp       https://dosage.clinicalgenome.org/clingen_region.cgi?id=ISCA-37446
+chr23(X)        Dystrophin gene chrX:31119219-33339460  2.2mil bp       https://www.ncbi.nlm.nih.gov/gene?Db=gene&Cmd=DetailsSearch&Term=1756
+chr24(Y)        PAR1 gene       chrY:10001-2781479      2.7mil bp       https://www.ncbi.nlm.nih.gov/grc/human
