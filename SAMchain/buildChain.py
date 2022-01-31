@@ -1,9 +1,9 @@
 '''
-createChain.py
+buildChain.py
 Initializes an empty blockchain for storing tab-separated text file data (SAM or BAM format) 
-Usage: $ python createChain.py <chainName> <length_chromosome> <length_bin> <length_read> 
-Example: python createChain.py -cn chain1 -lc 4050 -lb 1000 -lr 100 
-Example: python createChain.py -cn chain1 
+Usage: $ python buildChain.py <chainName> <length_chromosome> <length_bin> <length_read> 
+Example: python buildChain.py -cn chain1 -lc 4050 -lb 1000 -lr 100 
+Example: python buildChain.py -cn chain1 
 modified by CMB 07/2020
 modified by EN 01/2022
 '''
