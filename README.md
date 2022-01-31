@@ -16,10 +16,10 @@ pandas (https://pandas.pydata.org/pandas-docs/stable/getting_started/install.htm
 To develop and test this code, Python 2.7.16 and MultiChain 2.0.3 Daemon (Community Edition, latest protocol 20011) were used on Ubuntu 19.04 (GNU/Linux 5.0.0-37-generic x86_64).
 
 ### buildChain.py
-Use this file to initialize the chain, initialize streams within the chain, and push data from an input BAM file to the chain.
+Use this file to initialize the chain and initialize streams within the chain
 One would do all of this on the command line through the following line:
 
-``` python buildChain.py <mydata>.bam -cn <my-chain-name> -dr <datadir> ```
+``` python buildChain.py -cn <my-chain-name> -dr <datadir> ```
   
 This will create a multichain with name <my-chain-name> in the directory <datadir>. 
   
@@ -30,6 +30,14 @@ After building a chain, multichain keeps a directory ```<datadir>/<my-chain-name
 
 Given a chain <my-chain-name>, one can query a position in the genome, perform depth analysis of a position, or perform pileup analysis of a position. One can also rebuild a BAM file from the read data in the chain.
 
+
+### insertData.py
+Use this file to push data from an input BAM file to the chain.
+One would do all of this on the command line through the following line:
+
+``` python insertData.py <mydata>.bam -cn <my-chain-name> -dr <datadir> ```
+  
+This will insert BAM data to a subscribed multichain with name <my-chain-name> in the directory <datadir>.  
 ### queryReads.py
 
 Use this file to query a position in the genome via the following line:
